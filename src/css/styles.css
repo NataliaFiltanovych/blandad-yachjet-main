@@ -11,7 +11,10 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./yachts-rentals.css');
+@import url('./yachts-rental.css');
 @import url('./yachtjet-fleet.css');
 @import url('./choose-yacht.css');
+@import url('./advantages.css');
+@import url('./rent-a-yacht.css');
+@import url('./feedbacks.css');
 @import url('./footer.css');
