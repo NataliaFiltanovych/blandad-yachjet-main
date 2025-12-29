@@ -1,16 +1,18 @@
-.yachtjet-fleet-section {
+/* .yachtjet-fleet-section {
+ 
+} */
+.yachtjet-fleet-container {
   background-color: #fbfbfb;
   border-radius: 24px;
-  padding-bottom: 0;
 }
-
-.yachtjet-fleet-container-text {
+.yachtjet-fleet-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 299px;
   padding: 50px 50px 0px 50px;
 }
+
 .yachtjet-fleet-main-title {
   font-weight: 500;
   font-size: 48px;
@@ -20,7 +22,7 @@
   max-width: 537px;
   margin-bottom: 143px;
 }
-.yachtjet-fleet-container {
+.yachtjet-fleet-wrapper-text {
   max-width: 404px;
   margin-bottom: 100px;
 }
@@ -42,8 +44,6 @@
   opacity: 0.4;
 }
 .yachtjet-fleet-image {
-  width: 100%;
+  max-width: 1340px;
   margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
 }
