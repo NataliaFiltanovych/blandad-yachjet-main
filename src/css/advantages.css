@@ -45,7 +45,24 @@
   line-height: 1;
   letter-spacing: -0.05em;
   color: #fbfbfb;
+
+  margin-bottom: 18px;
+
+  position: relative;
+  display: inline-block;
 }
+
+.advantages-section-item-title::after {
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 318px;
+  height: 2px;
+  border-radius: 18px;
+  background-color: rgba(251, 251, 251, 0.1);
+}
+
 .advantages-section-item-text {
   font-weight: 400;
   font-size: 13px;
@@ -53,6 +70,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   opacity: 0.8;
+  margin-top: 18px;
 }
 
 .advantages-section-image {
