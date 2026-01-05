@@ -1,3 +1,21 @@
+.rent-a-yacht-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.rent-a-yacht-container {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+}
+
+.rent-a-yacht-image {
+  border-radius: 24px;
+}
 .rent-a-yacht-form {
   width: 472px;
 }
